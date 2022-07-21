@@ -26,8 +26,8 @@ public class Main {
             muzik = input.nextInt();
         }
         
-        double average = (mat+fizik+kimya+turkce)/6;
-        String s = (average<60) ? "sinifi gecti" : "sinifi gecemedi";
+        double average = (mat+fizik+kimya+turkce+tarih+muzik)/6;
+        String s = (average<60) ? "sinifta kaldi" : "sinifi gecti";
         System.out.println(s);
         
     }
