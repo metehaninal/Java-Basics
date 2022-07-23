@@ -21,6 +21,7 @@ public class kdv {
             System.out.println("KDVli fiyat: "+ fiyat*oran2+fiyat);
             System.out.println("KDV tutarı: "+ fiyat*oran2);
         }
-     System.exit(0);   
+     System.exit(0); 
+     sc.close();  
     }
 }
