@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class taksimetre {
@@ -19,3 +20,4 @@ public class taksimetre {
         System.exit(0);
     }
 }
+

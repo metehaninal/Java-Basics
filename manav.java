@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class manav {
@@ -37,3 +38,4 @@ public class manav {
 
     }
 }
+
