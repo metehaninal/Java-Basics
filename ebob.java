@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-import javax.xml.crypto.dsig.keyinfo.X509Data;
 
 public class ebob {
     public static void main(String[] args) {
