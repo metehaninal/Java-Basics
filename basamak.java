@@ -13,5 +13,6 @@ public class basamak {
             n /=10;
         }
         System.out.println("result is: "+total);
+        inp.close();
     }
 }
