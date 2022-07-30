@@ -1,4 +1,4 @@
-public class arrAve {
+public class harmonicArr {
     public static void main(String[] args) {
         int[] numbers = {1, 2, 3, 4, 5};
         double total=0;
