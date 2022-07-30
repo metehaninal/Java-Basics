@@ -19,12 +19,12 @@ public class Match {
             System.out.println("----------FIRST ROUND----------");
             System.out.println(this.f1.name+" dovuse basladi");
             this.f2.health = this.f1.hit(this.f2);
-            System.out.println(this.f2.name + " isimli kisinin " + this.f2.health + " cani kaldi");
+            System.out.println(this.f2.name + "'in " + this.f2.health + " cani kaldi");
         }else{     // f2 starts by 50% chance
             System.out.println("----------FIRST ROUND----------");
             System.out.println(this.f2.name+" dovuse basladi");
             this.f1.health = this.f2.hit(this.f1);
-            System.out.println(this.f1.name + " isimli kisinin " + this.f1.health + " cani kaldi");
+            System.out.println(this.f1.name + "'in " + this.f1.health + " cani kaldi");
         }
         if (checkWeight()) {
             while (f1.health > 0 && f2.health > 0) {
